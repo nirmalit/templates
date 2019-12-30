@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='base2.css') }}">
+</head>
+<body>
+<form action="/createf" method="POST"><center>
+    <pre>
+    SOURCE FILE           <input type="text" name="sf"><br>
+    DESTINATION BUCKET    <input type="text" name="db"><br>
+    DESTINATION FILE NAME <input type="text" name="df">
+        <input type="submit" value="submit">
+    </pre>
+</center>
+</form>
+
+</body>
+</html>
